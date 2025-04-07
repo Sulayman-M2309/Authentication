@@ -1,3 +1,4 @@
+
 const nodemailer = require("nodemailer");
 async function sendEmail(email,otp){
     const transporter = nodemailer.createTransport({

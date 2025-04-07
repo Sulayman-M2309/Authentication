@@ -13,6 +13,7 @@ const userSchema=new Schema ({
         type:String,
         required:true
     },
+   
     role:{
         type:String,
         enum:["user","admin"],
@@ -28,4 +29,4 @@ const userSchema=new Schema ({
 },{
     timestamps:true
 })
-module.exports=mongoose.model("User",userSchema)
+module.exports=mongoose.model("Usercollection",userSchema)
